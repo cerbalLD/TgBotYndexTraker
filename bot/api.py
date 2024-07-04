@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from sqlalchemy.orm import sessionmaker
-from models import engine
-from database_operations import (
+from bot.models import engine
+from bot.database_operations import (
     add_user, 
     add_mailing, 
     add_document,
@@ -16,7 +16,7 @@ from database_operations import (
 import json
 import os
 
-from bot import handle_send
+from bot.bot import handle_send
 
 def load_config(file_path):
     with open(file_path, 'r') as file:

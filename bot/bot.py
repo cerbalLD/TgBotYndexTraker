@@ -2,8 +2,8 @@ import telebot
 from telebot import types
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models import Base
-from database_operations import (
+from bot.models import Base
+from bot.database_operations import (
     add_user,
     update_user_chat_id,
     update_mailing_status,
