@@ -1,0 +1,19 @@
+{
+    "bot_host": "127.0.0.1",
+    "bot_port": "5000",
+    "bot_host_all": "http://127.0.0.1:5000",
+    
+    "tracker_host": "127.0.0.1",
+    "tracker_port": "5001",
+    "tracker_host_all": "http://127.0.0.1:5001",
+    
+    "view_host": "127.0.0.1",
+    "view_port": "5002",
+
+    "telegram_token": "7037338775:AAGdztrRYWeIHTszoNmDIDD0sWw1CEzmT1A",
+    "save_path" : "D:\\GitHub\\LexLegal\\bot\\files",
+
+    "yandex_tracker_api_url": "https://api.tracker.yandex.net/v2",
+    "yandex_tracker_oauth_token": "YOUR_OAUTH_TOKEN",
+    "yandex_tracker_org_id": "YOUR_ORG_ID"
+}
