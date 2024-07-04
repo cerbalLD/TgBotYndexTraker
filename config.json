@@ -1,11 +1,11 @@
 {
-    "bot_host": "127.0.0.1",
+    "bot_host": "100.20.92.101",
     "bot_port": "5000",
-    "bot_host_all": "http://127.0.0.1:5000",
+    "bot_host_all": "http://100.20.92.101:5000",
     
-    "tracker_host": "127.0.0.1",
+    "tracker_host": "44.225.181.72",
     "tracker_port": "5001",
-    "tracker_host_all": "http://127.0.0.1:5001",
+    "tracker_host_all": "http://44.225.181.72:5001",
     
     "view_host": "127.0.0.1",
     "view_port": "5002",
