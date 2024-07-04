@@ -1,5 +1,5 @@
 from sqlalchemy.orm import sessionmaker, joinedload
-from models import engine, User, Mailing, Document
+from bot.models import engine, User, Mailing, Document
 
 Session = sessionmaker(bind=engine)
 session = Session()
